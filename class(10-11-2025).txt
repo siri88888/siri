@@ -1,0 +1,67 @@
+Exceptional Handling:
+Error:
+-unexpected event which disturbs normal flow of execution.
+-we havw three types of error:
+1.syntax error
+2.runtime error 
+3.Logical error
+
+python--->programming langauge-->it has a grammer
+grammer:set of rules
+
+1.syntax error:we will get syntax error when we are not
+following the programming language rule
+-once we got a syntax error we will not able to execute the code
+-to rectify a syntax error we need to follow a proper
+programming language rule
+-no output
+
+2.Logical error:
+-Logical error ,we wont get any kind of syntax or runtime error.
+-we will get the output in a logical error but it is a wrong output
+-logic of code is not correct so we are getting wrong output.
+
+3.Runtime error:
+-we wont get any syntax error.
+-In runtime error program will terminate in abonormal way
+-runtime error we called it as exception.
+In\ a python we dont have any kind of segmentation fault
+if python try to use the low level programming language library
+it leads to segmentation fault.
+IVT-->interrupt vector table
+Exceptional handling:
+-it is not process of reactifying error its just a alternate
+way of doing that thing
+-our abnormal termination--->normal termination.
+how we are doing the exceptional handling?
+-Exceptional Handling block:
+1.try 
+2.except 
+3.finally 
+
+
+Try block:
+-risky code
+-a code whcih  raise the exception
+-In a try block we are keeping the risky code
+
+
+except block:
+-it will contains handlin code
+-if the exception is getting raise to handle that
+exception we have to write a handling code that code
+we are keeping inside except block
+-excepy block will only execute when there is a exception
+if there is no exception except block will not execute.
+
+finally block:
+- weather the exception is getting raised or not the finally
+block is definately getting executed.
+-it is a block just for cleanup purpose
+
+
+
+
+
+
+

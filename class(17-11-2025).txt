@@ -1,0 +1,38 @@
+polymorphism:
+-poly--.many
+-morphism-->form
+-ability to take more than one form
+-same=operations and different=implementation
+
+1.method overriding
+2.method overloading
+3.operator overloading
+
+
+oveloading:
+1.operator overloading:
+-the mechanism of giving the special meaning to the operator
+apart from its original meaning..
+
+2.method overloading
+
+Modules and Packages:
+Modules:any python file with .py extension we called 
+as module
+abc.py---->modules will contains a functions
+-collection of function will form the module
+-In a python we have two types of modules:
+1.predefined module:
+-modules which are aleardy present in langauge.
+math
+re
+os 
+random
+sytax:
+  import module_name
+  
+  module_name.func_name()
+2.User defined module:
+-we are creating our own module
+packages
+Library

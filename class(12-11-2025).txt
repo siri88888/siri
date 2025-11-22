@@ -1,0 +1,98 @@
+OOD:mapping a real world problem by using object oriented feature
+OOP:coding the real world problem using OOP  features
+NVT techiques:
+Nouns--->class
+verb---->methods inside the class
+class:
+-it is a user defiined data type
+-data or attributes and methods
+syntax:
+   class class_name:
+        body
+		
+object:
+-object is a variable whose data type is class.
+syntax:
+ obj=class_name()
+ 
+ if we want to execute a class definately we have to create an object.
+ we can create any number of objects per class.
+ 
+ method vs function
+ function inside the class--->method
+ function outside the class-->function
+ 
+ def __init__():
+ -special method--->constructor
+ -once we create the object constructor is automatically getting called
+ -constructor will initialize the values of data in class
+ -the code whose control i dont wanted to give to user that code
+ we will keep inside the constructor.
+ we have a three types of constructor:
+ 1.defualt
+ 2.parametrized
+ 3.building 
+ 
+ reference variable:
+ -a variable whci reffers to the current object
+ -self-->refernce variable
+ -object is getting created inside the heap segment
+ Data hiding:
+ -by deafult all the data present inside the class is public
+ access specifier:
+ 1.public:data is accessible anyone
+ 2.private
+ 3.protected--->not there in python
+ 
+ __variable-->to make it private
+ 
+ _classname__variable_name
+ data hiding is not completely possible in python...
+ so python is not an pure object oriented programming.
+ 
+Inheritance:
+-it is a mechanism where one class is accessing the properties of another class
+-it supports the reusability
+-extensibilty.
+-we have a 5 types of inheritance in python....
+1.single inheritance
+2.Multilevel inheritance
+3.multiple inheritance
+4.heirarchical inheritance
+5.Hybrird 
+
+1.single inheritance:
+base class-->from this class only we are creating a new class
+derived:a class which inherited from base class
+-we have one base class and one derived class
+syntax:
+    class base:
+	    pass
+	class derived(base):
+	    pass
+super():it is a method which is used to access the methods of the base class
+inside the derived class
+
+
+student:
+  sid,sname,
+  
+graduate:
+  degree
+  percentage
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,97 @@
+Programming paradigm:
+-its related to the way of writing code
+1.procedural programming:
+-hat to do and how to do-->function
+ex:C,C++,python
+2.declrative programming:
+-only telling what to do not how to do:
+-commnad based
+-SQL
+3.object oriented programming:
+
+OOP:
+-coding a real world problem using the object orinted
+feature
+
+OOD:
+-we are mapping the real world problem using object oriented features
+When we say any programming language is a OOP?
+-if the programming follows all the features of OOP then
+only we can say that its a purely OOP langauage
+-if a single feature is not followed then we cannot
+say that its a purely OOP langauge
+features of OOP:
+1.Abstraction
+2.Encapsulation
+3.Data Hiding 
+4.Inheritance
+5.Polymorphism
+
+C++--->not follows the encapsulation
+Python--->not follows the data hiding-->not purely OOP
+
+NVT:Techniques:Noun verb technique
+
+assume-->web application-->website-->driving school
+customer will come to website--
+registration
+booking a slot
+payment
+slot is booked
+
+Noun:customer,slot,payment--->class
+Verb:registration,booking----->methods of the class
+class:
+-class is a user defined data type.
+-class is a kind of template which contains the data or attributes and methods
+syntax:
+   class class_name:
+        body
+	class--->keyword
+	class_name--->Identifier
+	body-->attributes and method of the class
+
+ex:car----->attributes-->wheels,color etc
+            methods----->stopping,accelearting
+  class car:
+      wheels
+	  color 
+	  stopping()
+	  accelerating()
+
+Object:
+-Object is a variable whose data type is class.
+-it is instance of a class
+syntax:
+   obj_name=class_name(args)
+-without creating the object we cannot execute the class.
+-In a python everything will be created as a object.
+-whenever we are writing a function inside the class
+we called it as method
+-outside the class-->function
+
+__init__():
+-it is a special method in a python.
+-this method we called it as constructor
+-we dont to call constructor
+-it is automatically getting executed when we are creating
+the object
+-we are using the constructor to initialize a varaibles 
+in the class
+what type of code we are keeping inside the constructor?
+
+OS----->1.BIOS -->it is checking that all the devices
+are propery connected or not
+        2.bootrap programm
+we will keep that code inside the constructor whose control
+we dont wanted to give it to user.
+
+God-->programmer
+earth class 
+queue--->FIF0
+enqueue--->inserting 
+
+dequeue---->delete
+
+
+

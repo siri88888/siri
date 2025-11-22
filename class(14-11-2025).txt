@@ -1,0 +1,12 @@
+Hybrid Inheritance:
+-it is a combination two or more inheritance 
+
+Abstraction:
+
+matplotlib 
+seaborn---->matplotlib is a abstraction for seaborn----
+Implementation part:
+from abc import ABC,abstractmethod
+
+all the abstract base classes are inherited from ABC
+every abstract class have atleast one abstract method
