@@ -1,0 +1,8 @@
+Data Cleaning: 
+data gathering --->first step of data science life cycle
+1.not a properly structure
+2.error or noise
+3.properly normalized---
+ML model can accept only number
+
+laptop price prediction--->price
