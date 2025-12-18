@@ -1,0 +1,49 @@
+Numpy:Numerical python
+-numpy is core library in python
+-Numpy uses for:
+  1.Higher order matrix multiplication
+  2.Scientific computation
+  3.Numerical methods
+  4.statistical operations etc
+-it is extension to the higher order matrix operations.
+
+application :
+higher order matrix multiplication:
+Matrix-->collection of rows and columns
+1D--->vector
+2D--->Matrix
+3D--->cube
+nD---->Tensors
+
+
+2.Numerical method:
+ analytical method:to solve a problem we have a particular
+ therom,formula or axioms then we can called it as analytical
+ method.
+ 
+ syntax:
+        import numpy as np
+		
+		import-->keyword
+		numpy--->library name
+		np--->alias
+creating a numpy array:
+1.np.array([])
+
+[]--->subscript operators
+ number of subscript denotes the dimensions of the numpy
+ array
+ 
+1.np.arange(start,end,step_size)
+
+
+2.np.zeros()
+
+np.random.rand(5):it will gives the values as per the uniform
+distribution.-->
+
+scalar opearations on numpy:
+
+
+ 
+ 

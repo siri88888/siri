@@ -1,0 +1,143 @@
+Divide and conquer strategy:
+-problem---->P--->(large problem)
+-we are diving the large problem into subproblem
+-if subproblem is also large we will divide it further
+-upto when the problem will become a small problem
+-small problem-->when the problem is solved in one
+or two operations
+-D&C  recursive approach
+-problem statement of small and large problem must be same
+then only we can apply divide and conquer strategy
+
+
+Min-Max problem:
+lst=[23,11,-9,7,34,16,-18,45,33,27,-20]
+o/p-->(-20,45)
+
+D&C--->bigger problem
+ 0  1  2  3  4 5   6  7  8  9   10
+[23,11,-9,7,34,16,-18,45,33,27,-20]
+
+low=0
+high=10
+mid=(low+high)//2--->mid=(0+10)//2=5
+ 0   1  2 3  4  5       6  7  8  9   10
+[23,11,-9,7,34,16]    [-18,45,33,27,-20]
+
+mid1=(0+5)//2         mid2=(6+10)//2
+    =2                    =8
+ 0  1   2   3  4  5      6  7  8     9   10	
+[23,11,-9] [7,34,16]   [-18,45,33]  [27,-20]
+
+m1=1
+[23,11] [-9]    [7,34] [16]    [-18,45] [33]   [27]   [-20]
+min=11  min=-9  min=7   min=16 min=-18  min=33 min=27 min=-20
+max=23  max=-9  max=34  max=16 max=45   max=33 max=28 max=-20
+
+min=-9        min=7            min=-18          min=-20
+max=23        max=34           max=45           max=28
+
+min=-9    min=-20
+max=34    max=45
+
+min=-20
+max= 45--->ans           
+
+small problem
+lst=[3]--->min=max=3
+
+
+low==high
+
+lst=[2,3]--->min=2,max=3
+
+high=low+1
+
+
+Binary search:
+primary condition--->elements in the list must be in a 
+sorted order
+     0 1  2  3  4  5  6  7  8   9
+lst=[2,11,13,19,21,27,45,89,90,100]
+key=27
+
+mid=(0+9)//2=4
+lst[mid]=21
+T(n)=
+if lst[mid]==key:
+     return 1------>1
+elif lst[mid]>key:
+     return BS_left()-->T(n/2)
+else:
+     return Bs_right--->t(n/2)
+	 
+	 T(n)=T(n/2)+1--->O(logn)
+
+
+
+ 0  1  2  3  4     5  6  7  8   9
+[2,11,13,19,21]   [27,45,89,90,100]
+
+list is unsorted-->
+1.sort--->O(nlogn)
+2.search->O(logn)
+
+ O(nlogn)
+ 
+ 
+ lst=[13,7,9,5,11,23,16]
+ count the number of inversion
+ i and j represents the index
+ i<j and lst[i]>lst[j]
+(13,7)
+(9,5)
+(23,16)--->3
+Use the Bisection Method to find the root of the function:
+                      f(x)=x^3−4x−9
+within the interval [2,3], up to an absolute error tolerance of ε=1×10−5 Use NumPy for numerical computation.
+Merge sort:
+1.Recursive procedure--->diving the list
+2.Iterative procedure--->merging
+
+
+L1
+L2
+L1 and L2 both list are a sorted list
+result=[]
+merging(l1,l2):
+
+
+def merge_sort(lst,low,high):
+   if 
+   
+   
+   mid=(low+high)//2
+   l1=merge_sort_left()
+   l2=merge_sort_right()
+   merging(l1,l2)
+   
+   
+ 
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+

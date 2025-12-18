@@ -1,0 +1,133 @@
+Use the Bisection Method to find the root of the function:
+                      f(x)=x^3−4x−9
+within the interval [2,3] NumPy for numerical computation.
+
+statistical operations on numpy:
+statistics:
+-it is a way of solving a problem with the help of data.
+-there are two types of statistics:
+1.Descriptive stats:
+-describing,intepreting , visualizinng the data with the help
+of descriptive stats tools
+2.Inferential Stats:
+-we are performing the analysis on sample and we are infering
+about the population
+population:set of all possible data points
+sample:subset of popultation
+
+ex:How many people are happy with current launch of iphone?
+
+Data Types in Statistics:
+
+1.Numerical data:it is dealing with a number:
+  1.Discrete data:
+  when convert a data into fraction and it is not making any sense then
+  we can called it as discrete data
+  ex:I have 2.5 phone--->3
+  2.Contnuous data :
+  when convert a data into fraction and it is making a sense then
+  we can called it as contnuous data
+  
+  9:00
+  9:05
+  9:05:20
+  9:05:20:45
+  
+  weight=78kg
+        =78.33kg
+		=78.34567kg
+  
+  I have 3.2 laptops
+  
+  i have 3 laptops
+
+2.categorical data:it is dealing with group of people or category
+
+Gender:Male,Female
+educational detail:Btech,Mtech,Phd
+1.Nominal:ctegorical data that we are only using for labeling
+-but it dont have any natural order
+2.Ordinal:
+-but it is having a natural order
+
+1.First moment bussiness decesion:
+  measures of central tendencies
+  1.mean
+  2.median
+  3.mode
+  
+bussinees-->open local pizza shop
+what is the average cost of local pizza in hyderabad?
+
+s1---->100
+s2---->90
+s3---->110
+s4---->120
+s5---->120----->average/mean=(100+90+110+120+120)/5=108
+
+mean is giving the average value
+syntax:np.mean(data)  
+
+s1---->100
+s2---->90
+s3---->110
+s4---->120
+s5---->120
+s6---->600---->average=228-->outliers
+mean is getting influenced by outliers
+
+
+2.Median:middle value of a data
+  1.sort the data
+  2.if no of data points are odd-->median=middle value
+    if no of data points are even-->m1+m2/2=median
+s1---->100
+s2---->90
+s3---->110
+s4---->120
+s5---->120
+s6---->600-->median=(110+120)/2=115
+median is not influenced by outliers
+-we can find out the mean and median only for numerical data
+syntax:np.median()
+mode:
+-it is used for categorical data 
+-it is giving the max frequency occurrence
+
+pizza:insta-->600rs
+
+happy,happy,happy,unhappy,unhappy
+
+mode:happy
+
+happy,happy,happy,unhappy,unhappy,unhappy..
+
+sentiment of people-->bi modal
+
+2.second moment bussiness decesion:
+  measeures of disperssion:
+  
+ 1.variance:
+  how far the particular datapoint is from the mean
+  data:
+  weights:
+         20kg
+		 30kg
+		 40kg
+		 50kg
+ variance always give the larger value as well as the square of
+ the measurement so to scale down that we use SD
+ np.var(data)
+ 2.Standard deviation:
+ how far the particular datapoint is from the mean
+ -squareroot of variance
+ np.std(data)
+ 3.range:
+ 
+ 
+  
+ 
+ 
+ p1--->184cm
+
+

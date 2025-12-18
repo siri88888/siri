@@ -1,0 +1,77 @@
+Space complexity for Iterative program:
+-space complexity depends on extra space required apart from program
+space
+-if we are using any extra DS-->auxiliary space
+s(n)=ps+auxiliary space
+1.
+  a=5----->1u
+  b=6----->1u
+  a=a+b
+  b=a-b
+  a=a+b
+  print(a,b)---->a,b--->2uk-->O(1)
+  
+  
+2.
+  a=5-->1u
+  b=6-->1u
+  tnp=b
+  b=a 
+  a=tnp
+  print(a,b)--->a,b+tnp=2+1=3u-->O(1)
+  
+  
+def fun(lst1,lst2):
+   result=[]
+   for i in lst1:
+      for j in lst2:
+	      if i==j:
+		     result.append(i)
+			 
+    return result-------------->TC--->
+	
+	lst1=n
+	lst2=n
+	
+	i=1----------------->n
+	i=2----------------->n
+	
+	
+	i=n----------------->n--->O(n^2)-->TC---
+	
+	SC---->given-->lst1,lst2,i,j
+	       extra-->result-->n------>O(n)--SC
+		   
+		   
+	4.
+	    def cs(lst1,lst2):
+		    s1=set(lst1)--------->n
+			s2=set(lst2)--------->n
+			print(s1.interscetion(s2))---->n
+		sc(lst1,lst2)-------------------------->Tc=O(n)
+		                                        SC=O(n)
+
+
+    5.insert()--->
+	   Iteration:
+	             TC--->     SC---->
+	   Recursion:TC--->     SC---->
+	  append()
+	    Iteration:
+	             TC--->     SC---->
+	    Recursion:TC--->     SC---->
+	  
+	  extend()
+	    Iteration:
+	             TC--->     SC---->
+	    Recursion:TC--->     SC---->
+	  len()
+	    Iteration:
+	             TC--->     SC---->
+	    Recursion:TC--->     SC---->
+		   
+Numpy Broadcasting:
+-it is process where we can perform the operations on numpy array with a 
+different shapes.
+-while performing the operations the smaller  size numpy array is getting
+broadcast into larger size numpy array	  

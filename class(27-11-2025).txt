@@ -1,0 +1,42 @@
+Statistical operations on numpy:
+statistics
+
+data types:
+1.Numerical:
+  discrete
+  continuous
+
+2.Categorical:
+  nominal 
+  ordinal
+  
+first moment bussiness decesion:measures of central tendencies:
+1.mean
+2.median
+3.mode
+
+second moment bussiness decesion:
+measures of disperssion
+1.variance
+2.standard deviation
+3.range
+
+
+range-->differnce between the maximum value and minimum value
+range=max(data)-min(data)
+
+np.max-np.min
+
+
+percentile:
+
+
+
+
+
+
+
+
+
+
+

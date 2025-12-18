@@ -1,0 +1,31 @@
+find the root of equation
+f(x)=cosx-sinx  [0,1]
+f(x)=0-------------->approximation method
+--->approach:binary search-->bisection method.
+IMVT:Intermediate mean value therom
+a,b interval given...(closed interval)
+f(a)
+f(b)
+and f(a) and f(b) are having two different sign
+then definately there exists atleast one root in between
+a and b
+
+[a,b]--->closed interval--> it will take a,b and intemediate values between a and b 
+(a,b)--->open interval-->only take intermediate values between a and between
+Numpy:
+1.np.array([])
+2.np.arange()
+3.np.zeros()
+4.np.ones()
+5.np.diag()
+6.np.eye()
+7.np.random.rand()
+8.np.random.randn()
+
+
+Transcendental operations on numpy
+1.log
+2.sinx
+3.cos 
+5.exp
+
